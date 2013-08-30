@@ -1,6 +1,30 @@
 @import "style.css";
 
-table.calendar {
+/*General Style */
+body{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Table Style */
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td{
+	padding: 5px;
+	vertical-align: top;
+	border: 1px solid #cccccc;
+}
+
+tr.tuesday{
+	background-color: #eeeeee;
+}
+
+/*table.calendar {
 	border-collapse: collapse;
 }
 
@@ -21,6 +45,7 @@ table.calendar td {
 	border: 1px solid #cccccc;
 	vertical-align: top;
 }
+
 #globalNav{
 	color: #cccccc;
 	margin: 0px 0px 0px 0px;
@@ -70,12 +95,12 @@ table.calendar td {
 	float: left;
 	margin: 0;
 	padding: 10px;
-}
+}*/
 
 /********************************************************************************
  * Our general text formatting. ********************************************************************************/
 
-body{
+/*body{
 	font-family: Arial,sans-serif;
 	color: #333333;
 	margin: 0px;
@@ -91,7 +116,7 @@ a:hover {
 	text-decoration: underline;
 } /* overrides decoration from previous rule for hovered links */
 
-h1 {
+/*h1 {
 	font-size: 140%;
 	color: #006699;
 }
