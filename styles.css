@@ -46,3 +46,7 @@ td{
 tr.tuesday{
 	background-color: #eeeeee;
 }
+
+td.date{
+	width: 100px;
+}
