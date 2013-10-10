@@ -10,6 +10,8 @@ body{
 
 h1 {
 	color: #006699;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px solid #cccccc;
 }
 
 h2 {
@@ -33,10 +35,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-#classname{
-	font-size: 200%;
-	margin: 0px 0px 20px 0px;
-	border-bottom: 1px solid #cccccc;
+a#classname{
+	text-decoration: none;
 }
 
 /* Table Style */
