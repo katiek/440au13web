@@ -16,6 +16,14 @@ h2 {
 	color: #333333;
 }
 
+p {
+	margin-left: 30px;
+}
+
+#note {
+	color: red;
+}
+
 a:link, a:visited{
 	color: #006699;
 	text-decoration: none;
